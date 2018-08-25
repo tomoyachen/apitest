@@ -130,11 +130,14 @@ class ApiTest:
 				# print(response)
 				self.write_report(
 					cs.API_TEST_FAIL % (name, number, method, testUrl, _headers, _data, expectCode, response["msg"],response))
+				print("失败case编号",number)
+				# actualCode.close()
 
 			else:
 				logging.info("新增一条接口成功报告")
 				self.write_report(
 					cs.API_TEST_SUCCESS % (name, number, method, testUrl, _headers, _data, expectCode, response["msg"],response))
+				print(number)
 
 
 	def run_test(self, filename):
@@ -163,7 +166,8 @@ class ApiTest:
 		"""
 		reportName = eval(conf.get_data(title=cs.REPORT_NAME, key=cs.REPORT))
 		_filename = cs.REPORT_PATH + str(reportName) + cs.NOW
-		fb = open(_filename,"rt+")
+		fb = open(_filename, "rt+")
+
 		time.sleep(2)
 		try:
 			f = open(_filename)

@@ -9,7 +9,7 @@ from imp import reload
 reload(sys)
 
 
-TEST_URL ='https://www.uuabc.com/'
+TEST_URL ='https://uathome.uuabc.com/'
 
 REPORT_NAME = 'Test report'
 TITLE = '所有数据准备SQL'

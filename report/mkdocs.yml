@@ -4,8 +4,17 @@ site_dir:
 theme:
 pages:
 
-
-
-
-
 - [user_20180809.md, user_test_report]
+- [user_20180810.md, user_test_report]
+- [user_20180815.md, user_test_report]
+
+- [user_20180816.md, user_test_report]
+- [task_list_20180816.md, task_list_report]
+- [user_20180816.md, user_test_report]
+- [task_list_20180816.md, task_list_report]
+- [user_20180816.md, user_test_report]
+- [task_list_20180816.md, task_list_report]
+- [user_20180816.md, user_test_report]
+- [user_20180822.md, user_test_report]
+- [task_list_20180822.md, task_list_report]
+- [user_20180822.md, user_test_report]
