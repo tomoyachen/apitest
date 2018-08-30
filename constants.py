@@ -24,11 +24,11 @@ HEADERS = 'headers'
 REPORT = 'report'
 R_NAME = 'reportName'
 
-REPORT_PATH = "C:\\Users\\user\\Desktop\\pythonTest\\apicode\\api4code-master\\report\\docs\\"
-YML_REPORT = "C:\\Users\\user\\Desktop\\pythonTest\\apicode\\api4code-master\\report\\mkdocs.yml"
+REPORT_PATH = "C:\\Users\\Administrator\\PycharmProjects\\apitest\\report\\docs\\"
+YML_REPORT = "C:\\Users\\Administrator\\PycharmProjects\\apitest\\report\mkdocs.yml"
 
 
-CASE_PATH = "C:\\Users\\user\\Desktop\\pythonTest\\apicode\\api4code-master\\case\\"
+CASE_PATH = "C:\\Users\\Administrator\\PycharmProjects\\apitest\\case\\"
 
 #测试报告内容
 API_TEST_FAIL = """
